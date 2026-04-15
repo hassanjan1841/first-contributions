@@ -1,7 +1,6 @@
 .DS_Store;
 .idea/
 .vs
-.vscode
 .env
 # User-specific files
 *.rsuser
@@ -194,6 +193,7 @@ publish/
 PublishScripts/
 
 # NuGet Packages
+temp_auto_push.bat
 *.nupkg
 # NuGet Symbol Packages
 *.snupkg
@@ -367,11 +367,6 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 *.code-workspace
 
 # Local History for Visual Studio Code
@@ -387,7 +382,6 @@ FodyWeavers.xsd
 # JetBrains Rider
 .idea/
 *.sln.iml
-.vscode/settings.json
 .DS_Store
 
 # Desktop.ini (Google Drive info file)
@@ -395,3 +389,5 @@ desktop.ini
 
 .codegpt
 .qodo
+.gitignore
+branch_structure.json
